@@ -1,0 +1,15 @@
+schwab:
+  client_id: "${SCHWAB_CLIENT_ID}"
+  redirect_uri: "https://localhost"
+  account_id: "${SCHWAB_ACCOUNT_ID}"
+polygon:
+  api_key: "${POLYGON_KEY}"
+risk:
+  max_position_pct: 0.01
+  daily_drawdown_pct: 0.05
+  circuit_breaker: true
+strategy:
+  symbols: [ "SPY", "AAPL", "QQQ" ]
+  timeframe: "1s"
+ai:
+  model_path: "./models/xgb_spy.pkl"

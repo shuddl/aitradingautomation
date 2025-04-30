@@ -1,0 +1,6 @@
+# Core requirements for the demo
+redis
+pandas>=1.3.0
+numpy
+yfinance
+matplotlib

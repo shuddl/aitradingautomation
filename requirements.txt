@@ -1,0 +1,8 @@
+yfinance
+matplotlib
+fastapi
+uvicorn
+dash
+redis
+jose
+prometheus-client
